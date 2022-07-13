@@ -53,6 +53,7 @@ class LoginController: UIViewController {
                                                                                    .foregroundColor: UIColor.white]))
         
         button.setAttributedTitle(attributtedTitle, for: .normal)
+        button.addTarget(self, action: #selector(handleShowSignup), for: .touchUpInside)
         
         return button
     }()
@@ -61,6 +62,11 @@ class LoginController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         configureUI()
+    }
+    
+    // MARK: - Selectors
+    @objc func handleShowSignup(){
+        navigationController?.pushViewController(RegistrationController(), animated: true)
     }
     
     // MARK: Helpers
@@ -94,7 +100,7 @@ class LoginController: UIViewController {
         
         view.addSubview(dontHaveAccountButton)
         dontHaveAccountButton.anchor(left: view.leftAnchor,
-                                     bottom: view.bottomAnchor,
+                                     bottom: view.safeAreaLayoutGuide.bottomAnchor,
                                      right: view.rightAnchor,
                                      paddingLeft: 8,
                                      paddingBottom: 32,
