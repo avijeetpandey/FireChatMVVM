@@ -82,5 +82,7 @@ extension ConversationsController: UITableViewDataSource {
 }
 
 extension ConversationsController: UITableViewDelegate {
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print(indexPath.row)
+    }
 }

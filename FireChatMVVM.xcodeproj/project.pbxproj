@@ -12,6 +12,8 @@
 		DC067FD2287ED28700AE286E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC067FD1287ED28700AE286E /* Assets.xcassets */; };
 		DC067FD5287ED28700AE286E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC067FD3287ED28700AE286E /* LaunchScreen.storyboard */; };
 		DC067FE3287ED2FB00AE286E /* ConversationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC067FE2287ED2FB00AE286E /* ConversationsController.swift */; };
+		DC067FE6287EDC4F00AE286E /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC067FE5287EDC4F00AE286E /* LoginController.swift */; };
+		DC067FE8287EDC5800AE286E /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC067FE7287EDC5800AE286E /* RegistrationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		DC067FD4287ED28700AE286E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC067FD6287ED28700AE286E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC067FE2287ED2FB00AE286E /* ConversationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsController.swift; sourceTree = "<group>"; };
+		DC067FE5287EDC4F00AE286E /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		DC067FE7287EDC5800AE286E /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,7 @@
 		DC067FDF287ED2C200AE286E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				DC067FE4287EDC3700AE286E /* Authentication */,
 				DC067FE2287ED2FB00AE286E /* ConversationsController.swift */,
 			);
 			path = Controller;
@@ -110,6 +115,15 @@
 			children = (
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		DC067FE4287EDC3700AE286E /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				DC067FE5287EDC4F00AE286E /* LoginController.swift */,
+				DC067FE7287EDC5800AE286E /* RegistrationController.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,7 +197,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC067FC9287ED28500AE286E /* AppDelegate.swift in Sources */,
+				DC067FE6287EDC4F00AE286E /* LoginController.swift in Sources */,
 				DC067FE3287ED2FB00AE286E /* ConversationsController.swift in Sources */,
+				DC067FE8287EDC5800AE286E /* RegistrationController.swift in Sources */,
 				DC067FCB287ED28500AE286E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
