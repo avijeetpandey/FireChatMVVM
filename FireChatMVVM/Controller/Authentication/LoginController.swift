@@ -9,6 +9,8 @@ import UIKit
 
 class LoginController: UIViewController {
     
+    private var viewModel: LoginViewModel = LoginViewModel()
+    
     // MARK: Properties
     private let iconImage: UIImageView =  {
         let iv = UIImageView()
@@ -30,9 +32,10 @@ class LoginController: UIViewController {
         button.setTitle("Log in", for: .normal)
         button.layer.cornerRadius = 5
         button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 16)
-        button.backgroundColor = .systemPink
+        button.backgroundColor = .gray
         button.setTitleColor(.white, for: .normal)
         button.setHeight(height: 50)
+        button.isEnabled = false
         return button
     }()
     
@@ -69,7 +72,28 @@ class LoginController: UIViewController {
         navigationController?.pushViewController(RegistrationController(), animated: true)
     }
     
+    @objc func textDidChange(sender: UITextField){
+        if sender == emailTextField {
+            viewModel.email = sender.text
+        } else {
+            viewModel.password = sender.text
+        }
+        
+        checkFormStatus()
+    }
+    
     // MARK: Helpers
+    
+    func checkFormStatus(){
+        if viewModel.formIsValid {
+            authButton.isEnabled = false
+            authButton.backgroundColor = .systemPink
+        } else {
+            authButton.isEnabled = false
+            authButton.backgroundColor = .gray
+        }
+    }
+    
     func configureUI(){
         navigationController?.navigationBar.isHidden = true
         navigationController?.navigationBar.barStyle = .black
@@ -105,5 +129,8 @@ class LoginController: UIViewController {
                                      paddingLeft: 8,
                                      paddingBottom: 32,
                                      paddingRight: 8)
+        
+        emailTextField.addTarget(self, action: #selector(textDidChange), for: .editingChanged)
+        passwordTextField.addTarget(self, action: #selector(textDidChange), for: .editingChanged)
     }
 }

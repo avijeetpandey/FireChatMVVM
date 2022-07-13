@@ -17,6 +17,7 @@
 		DC067FEA287EE0F600AE286E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC067FE9287EE0F600AE286E /* Extensions.swift */; };
 		DC067FFD287EF7F700AE286E /* InputContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC067FFC287EF7F700AE286E /* InputContainerView.swift */; };
 		DC067FFF287EFF9700AE286E /* CustomInputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC067FFE287EFF9700AE286E /* CustomInputField.swift */; };
+		DC068001287F0FA800AE286E /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC068000287F0FA800AE286E /* LoginViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		DC067FE9287EE0F600AE286E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		DC067FFC287EF7F700AE286E /* InputContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputContainerView.swift; sourceTree = "<group>"; };
 		DC067FFE287EFF9700AE286E /* CustomInputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInputField.swift; sourceTree = "<group>"; };
+		DC068000287F0FA800AE286E /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		DC067FDE287ED2BA00AE286E /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				DC068000287F0FA800AE286E /* LoginViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC068001287F0FA800AE286E /* LoginViewModel.swift in Sources */,
 				DC067FFF287EFF9700AE286E /* CustomInputField.swift in Sources */,
 				DC067FC9287ED28500AE286E /* AppDelegate.swift in Sources */,
 				DC067FEA287EE0F600AE286E /* Extensions.swift in Sources */,
