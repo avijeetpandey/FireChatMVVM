@@ -17,77 +17,44 @@ class LoginController: UIViewController {
         return iv
     }()
     
-    private lazy var emailContainerView: UIView = {
-        let containerview = UIView()
-        
-        let iv = UIImageView()
-        let image = UIImage(systemName: "envelope")
-        iv.image = image
-        iv.tintColor = .white
-        
-        containerview.addSubview(iv)
-        iv.centerY(inView: containerview)
-        iv.anchor(left: containerview.leftAnchor, paddingLeft: 8)
-        iv.setDimensions(height: 24, width: 24)
-        
-        containerview.addSubview(emailTextField)
-        emailTextField.centerY(inView: containerview)
-        emailTextField.anchor(left: iv.rightAnchor,
-                              bottom: containerview.bottomAnchor,
-                              right: containerview.rightAnchor,
-                              paddingLeft: 8,
-                              paddingBottom: 4)
-        
-        containerview.setHeight(height: 50)
-        return containerview
+    private lazy var emailContainerView: InputContainerView = {
+        return InputContainerView(image: UIImage(systemName: "envelope")!, textField: emailTextField)
     }()
     
-    private lazy var passwordContainerView: UIView = {
-        let containerview = UIView()
-        
-        let iv = UIImageView()
-        let image = UIImage(systemName: "lock")
-        iv.image = image
-        iv.tintColor = .white
-        
-        containerview.addSubview(iv)
-        iv.centerY(inView: containerview)
-        iv.anchor(left: containerview.leftAnchor, paddingLeft: 8)
-        iv.setDimensions(height: 24, width: 24)
-        
-        containerview.addSubview(passwordTextField)
-        passwordTextField.centerY(inView: containerview)
-        passwordTextField.anchor(left: iv.rightAnchor,
-                                 bottom: containerview.bottomAnchor,
-                                 right: containerview.rightAnchor,
-                                 paddingLeft: 8,
-                                 paddingBottom: 4)
-        
-        containerview.setHeight(height: 50)
-        return containerview
+    private lazy var passwordContainerView: InputContainerView = {
+        return InputContainerView(image: UIImage(systemName: "lock")!, textField: passwordTextField)
     }()
     
     private let authButton: UIButton = {
         let button = UIButton(type: .system)
-        button.setTitle("Login In", for: .normal)
+        button.setTitle("Log in", for: .normal)
         button.layer.cornerRadius = 5
         button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 16)
-        button.backgroundColor = .systemRed
+        button.backgroundColor = .systemPink
+        button.setTitleColor(.white, for: .normal)
         button.setHeight(height: 50)
         return button
     }()
     
-    private let emailTextField: UITextField = {
-        let textField = UITextField()
-        textField.placeholder = "Enter email"
+    private let emailTextField = CustomTextField(placeholder: "Enter email")
+    
+    private let passwordTextField: CustomTextField = {
+        let textField = CustomTextField(placeholder: "Enter password")
+        textField.isSecureTextEntry = true
         return textField
     }()
     
-    private let passwordTextField: UITextField = {
-        let textField = UITextField()
-        textField.placeholder = "Enter password"
-        textField.isSecureTextEntry = true
-        return textField
+    private let dontHaveAccountButton: UIButton = {
+        let button = UIButton()
+        let attributtedTitle = NSMutableAttributedString(string: "Dont have an account? ",
+                                                         attributes: [.font: UIFont.systemFont(ofSize: 16),
+                                                                      .foregroundColor: UIColor.white])
+        attributtedTitle.append(NSAttributedString(string: "Sign up", attributes: [.font: UIFont.systemFont(ofSize: 16),
+                                                                                   .foregroundColor: UIColor.white]))
+        
+        button.setAttributedTitle(attributtedTitle, for: .normal)
+        
+        return button
     }()
     
     // MARK: Lifecycle
@@ -124,6 +91,14 @@ class LoginController: UIViewController {
                          paddingTop: 32,
                          paddingLeft: 32,
                          paddingRight: 32)
+        
+        view.addSubview(dontHaveAccountButton)
+        dontHaveAccountButton.anchor(left: view.leftAnchor,
+                                     bottom: view.bottomAnchor,
+                                     right: view.rightAnchor,
+                                     paddingLeft: 8,
+                                     paddingBottom: 32,
+                                     paddingRight: 8)
     }
     
     func configureGradientLayer(){

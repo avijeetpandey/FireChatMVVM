@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4151708D-92C0-47C9-B1F4-BA063E07FD53"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "99FD7735-4F06-426E-AADE-137E33074613"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FireChatMVVM/Controller/Authentication/LoginController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "configureUI()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "741A6480-D5D0-4BFA-936D-6A8FE0F8B933"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FireChatMVVM/Controller/Authentication/LoginController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "passwordContainerView"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "741A6480-D5D0-4BFA-936D-6A8FE0F8B933 - 4011acf4234e100d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FireChatMVVM.LoginController.passwordContainerView.getter : FireChatMVVM.InputContainerView"
+                  moduleName = "FireChatMVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/avijeetpandey/Dev/FireChatMVVM/FireChatMVVM/Controller/Authentication/LoginController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "741A6480-D5D0-4BFA-936D-6A8FE0F8B933 - 1e62c459480c6419"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FireChatMVVM.LoginController.passwordContainerView.setter : FireChatMVVM.InputContainerView"
+                  moduleName = "FireChatMVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/avijeetpandey/Dev/FireChatMVVM/FireChatMVVM/Controller/Authentication/LoginController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "741A6480-D5D0-4BFA-936D-6A8FE0F8B933 - c7de7c8fc231bd08"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FireChatMVVM.LoginController.passwordContainerView.modify : FireChatMVVM.InputContainerView"
+                  moduleName = "FireChatMVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/avijeetpandey/Dev/FireChatMVVM/FireChatMVVM/Controller/Authentication/LoginController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "741A6480-D5D0-4BFA-936D-6A8FE0F8B933 - 5f014537b842faf0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FireChatMVVM.LoginController.passwordContainerView.modify : FireChatMVVM.InputContainerView with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "FireChatMVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/avijeetpandey/Dev/FireChatMVVM/FireChatMVVM/Controller/Authentication/LoginController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "741A6480-D5D0-4BFA-936D-6A8FE0F8B933 - 3978a2f8c96874e8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FireChatMVVM.LoginController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; FireChatMVVM.LoginController"
+                  moduleName = "FireChatMVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/avijeetpandey/Dev/FireChatMVVM/FireChatMVVM/Controller/Authentication/LoginController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  uuid = "741A6480-D5D0-4BFA-936D-6A8FE0F8B933 - c930e3423d314faf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FireChatMVVM.LoginController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;FireChatMVVM.LoginController&gt;"
+                  moduleName = "FireChatMVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/avijeetpandey/Dev/FireChatMVVM/FireChatMVVM/Controller/Authentication/LoginController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "741A6480-D5D0-4BFA-936D-6A8FE0F8B933 - 636a22c167c0d594"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; FireChatMVVM.InputContainerView in FireChatMVVM.LoginController.passwordContainerView.getter : FireChatMVVM.InputContainerView"
+                  moduleName = "FireChatMVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/avijeetpandey/Dev/FireChatMVVM/FireChatMVVM/Controller/Authentication/LoginController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C5F427A7-2B7A-47D4-ACCD-84B9D55EBED2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FireChatMVVM/Controller/Authentication/LoginController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "emailContainerView"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "C5F427A7-2B7A-47D4-ACCD-84B9D55EBED2 - a694aa94a24000f2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FireChatMVVM.LoginController.emailContainerView.getter : FireChatMVVM.InputContainerView"
+                  moduleName = "FireChatMVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/avijeetpandey/Dev/FireChatMVVM/FireChatMVVM/Controller/Authentication/LoginController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "C5F427A7-2B7A-47D4-ACCD-84B9D55EBED2 - 9c30132c1f066cc6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FireChatMVVM.LoginController.emailContainerView.setter : FireChatMVVM.InputContainerView"
+                  moduleName = "FireChatMVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/avijeetpandey/Dev/FireChatMVVM/FireChatMVVM/Controller/Authentication/LoginController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "C5F427A7-2B7A-47D4-ACCD-84B9D55EBED2 - f289b2fb380ba7f7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FireChatMVVM.LoginController.emailContainerView.modify : FireChatMVVM.InputContainerView"
+                  moduleName = "FireChatMVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/avijeetpandey/Dev/FireChatMVVM/FireChatMVVM/Controller/Authentication/LoginController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "C5F427A7-2B7A-47D4-ACCD-84B9D55EBED2 - a3eb692fe3cc2ebc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FireChatMVVM.LoginController.emailContainerView.modify : FireChatMVVM.InputContainerView with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "FireChatMVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/avijeetpandey/Dev/FireChatMVVM/FireChatMVVM/Controller/Authentication/LoginController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "C5F427A7-2B7A-47D4-ACCD-84B9D55EBED2 - 3978a2f8c9687385"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FireChatMVVM.LoginController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; FireChatMVVM.LoginController"
+                  moduleName = "FireChatMVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/avijeetpandey/Dev/FireChatMVVM/FireChatMVVM/Controller/Authentication/LoginController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "152">
+               </Location>
+               <Location
+                  uuid = "C5F427A7-2B7A-47D4-ACCD-84B9D55EBED2 - c930e3423d3148c2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FireChatMVVM.LoginController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;FireChatMVVM.LoginController&gt;"
+                  moduleName = "FireChatMVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/avijeetpandey/Dev/FireChatMVVM/FireChatMVVM/Controller/Authentication/LoginController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "C5F427A7-2B7A-47D4-ACCD-84B9D55EBED2 - 1f4fad058843ab1d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; FireChatMVVM.InputContainerView in FireChatMVVM.LoginController.emailContainerView.getter : FireChatMVVM.InputContainerView"
+                  moduleName = "FireChatMVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/avijeetpandey/Dev/FireChatMVVM/FireChatMVVM/Controller/Authentication/LoginController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7249A8E9-5D49-4E3E-8509-FE0C2EFE7C22"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FireChatMVVM/Controller/Authentication/LoginController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "emailContainerView"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
