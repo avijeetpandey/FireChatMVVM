@@ -8,7 +8,15 @@
 import UIKit
 
 class LoginController: UIViewController {
+    
     // MARK: Properties
+    private let iconImage: UIImageView =  {
+        let iv = UIImageView()
+        iv.image = UIImage(systemName: "bubble.right")
+        iv.tintColor = .white
+        return iv
+    }()
+    
     
     // MARK: Lifecycle
     override func viewDidLoad() {
@@ -24,6 +32,13 @@ class LoginController: UIViewController {
         view.backgroundColor = .systemPink
         
         configureGradientLayer()
+        
+        view.addSubview(iconImage)
+        iconImage.translatesAutoresizingMaskIntoConstraints = false
+        iconImage.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        iconImage.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
+        iconImage.heightAnchor.constraint(equalToConstant: 120).isActive = true
+        iconImage.widthAnchor.constraint(equalToConstant: 120).isActive = true
     }
     
     func configureGradientLayer(){

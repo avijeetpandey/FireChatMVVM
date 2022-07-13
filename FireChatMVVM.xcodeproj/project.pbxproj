@@ -14,6 +14,7 @@
 		DC067FE3287ED2FB00AE286E /* ConversationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC067FE2287ED2FB00AE286E /* ConversationsController.swift */; };
 		DC067FE6287EDC4F00AE286E /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC067FE5287EDC4F00AE286E /* LoginController.swift */; };
 		DC067FE8287EDC5800AE286E /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC067FE7287EDC5800AE286E /* RegistrationController.swift */; };
+		DC067FEA287EE0F600AE286E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC067FE9287EE0F600AE286E /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		DC067FE2287ED2FB00AE286E /* ConversationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsController.swift; sourceTree = "<group>"; };
 		DC067FE5287EDC4F00AE286E /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		DC067FE7287EDC5800AE286E /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		DC067FE9287EE0F600AE286E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 		DC067FE1287ED2D100AE286E /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				DC067FE9287EE0F600AE286E /* Extensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC067FC9287ED28500AE286E /* AppDelegate.swift in Sources */,
+				DC067FEA287EE0F600AE286E /* Extensions.swift in Sources */,
 				DC067FE6287EDC4F00AE286E /* LoginController.swift in Sources */,
 				DC067FE3287ED2FB00AE286E /* ConversationsController.swift in Sources */,
 				DC067FE8287EDC5800AE286E /* RegistrationController.swift in Sources */,
